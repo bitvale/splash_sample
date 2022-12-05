@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/initialization_nav_graph"
+    app:startDestination="@+id/initialization_fragment">
+
+    <fragment
+        android:id="@+id/initialization_fragment"
+        android:name="com.bitvale.initial.presentation.view.fragment.InitialFragment"
+        android:label="InitialFragment"
+        tools:layout="@layout/initial_fragment" />
+
+</navigation>

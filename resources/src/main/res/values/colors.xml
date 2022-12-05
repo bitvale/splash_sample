@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_primary">#5E81F4</color>
+    <color name="color_primary_dark">#999999</color>
+    <color name="color_accent">#5E81F4</color>
+    <color name="color_control_highlight">#1f999999</color>
+
+    <color name="window_background">#EFF3FB</color>
+
+    <color name="text_color_light">#8182A0</color>
+    <color name="text_color_dark">#151538</color>
+    <color name="text_color_question">#656981</color>
+    <color name="text_color_code">#4D4D4C</color>
+    <color name="text_color_accent">@color/color_accent</color>
+    <color name="text_color_question_option">@color/text_color_question</color>
+    <color name="level_text_color_disabled">#478182A0</color>
+    <color name="filter_text_color">@color/color_accent</color>
+
+    <color name="white_20">#33FFFFFF</color>
+    <color name="white_60">#99FFFFFF</color>
+    <color name="white_90">#E6FFFFFF</color>
+
+    <color name="negative_color">#FD8993</color>
+    <color name="dim_bg_color">#57000000</color>
+    <color name="review_dim_bg_color">#7A000000</color>
+    <color name="dialog_status_color">#A8A8A8</color>
+    <color name="review_dialog_status_color">#858585</color>
+    <color name="divider_color">#D3D7E1</color>
+    <color name="code_bg_color">#D8DEE8</color>
+
+    <color name="info_bg_color">#CBE4F4</color>
+    <color name="activity_bg_color">#FFFFFF</color>
+    <color name="warning_bg_color">#F9E1E1</color>
+    <color name="correct_bg_color">#CBF4F0</color>
+    <color name="default_bg_color">#E1E6F0</color>
+    <color name="progress_bg">#E3E4EC</color>
+    <color name="filter_bg">#F3F7FD</color>
+
+    <color name="ripple_color">#66555555</color>
+    <color name="ripple_level_color">#52DDDDDD</color>
+    <color name="ripple_icon_color">#66DDDDDD</color>
+    <color name="ripple_dialog_color">@color/ripple_icon_color</color>
+    <color name="ripple_mask_color">#FF000000</color>
+    <color name="ripple_activity">#66E3DCDC</color>
+
+    <color name="try_pro_bg_color_1">#F7838D</color>
+    <color name="try_pro_bg_color_2">#FF9D97</color>
+    <color name="pro_bg_color_1">#8360C3</color>
+    <color name="pro_bg_color_2">#A076EC</color>
+    <color name="pro_message_bg_color">#4F6DD1</color>
+
+    <color name="submit_til_color_primary">#CC8182A0</color>
+
+    <color name="progress_0">#ABACC3</color>
+    <color name="progress_25">#FF606D</color>
+    <color name="progress_50">#FF8F7F</color>
+    <color name="progress_60">#98AEF4</color>
+    <color name="progress_75">#7E9AF6</color>
+    <color name="progress_100">#567BF5</color>
+
+</resources>

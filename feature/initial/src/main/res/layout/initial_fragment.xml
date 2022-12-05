@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:background="@android:color/white"
+    tools:ignore="HardcodedText">
+
+    <View
+        android:id="@+id/progress"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/window_background"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/space_16"
+        android:fontFamily="@font/default_typeface_regular"
+        android:gravity="center"
+        android:text="Initialization"
+        android:textColor="@color/text_color_light"
+        android:textSize="@dimen/text_22"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvPercentPlaceholder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/default_typeface_bold"
+        android:text="100"
+        android:textColor="@color/color_accent"
+        android:textSize="@dimen/text_32"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/tvMessage"
+        app:layout_constraintEnd_toStartOf="@+id/tvPercent"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvPercentProgress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/default_typeface_bold"
+        android:text="0"
+        android:textColor="@color/color_accent"
+        android:textSize="@dimen/text_32"
+        app:layout_constraintBottom_toBottomOf="@+id/tvPercentPlaceholder"
+        app:layout_constraintEnd_toEndOf="@+id/tvPercentPlaceholder"
+        app:layout_constraintTop_toTopOf="@+id/tvPercentPlaceholder" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvPercent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/space_2"
+        android:fontFamily="@font/default_typeface_medium"
+        android:text="%"
+        android:textColor="@color/color_accent"
+        android:textSize="@dimen/text_22"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tvPercentPlaceholder"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tvPercentPlaceholder" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/space_16"
+        android:layout_marginTop="@dimen/space_16"
+        android:layout_marginEnd="@dimen/space_16"
+        android:fontFamily="@font/default_typeface_regular"
+        android:gravity="center"
+        android:text="error"
+        android:textColor="@color/text_color_light"
+        android:textSize="@dimen/text_18"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvPercentPlaceholder" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvFooter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/space_16"
+        android:fontFamily="@font/default_typeface_regular"
+        android:gravity="center"
+        android:text="Please wait!"
+        android:textColor="@color/text_color_light"
+        android:textSize="@dimen/text_22"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/progress" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

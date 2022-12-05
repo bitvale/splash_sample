@@ -1,0 +1,86 @@
+<resources>
+    <!-- text size -->
+    <dimen name="text_10">10sp</dimen>
+    <dimen name="text_12">12sp</dimen>
+    <dimen name="text_14">14sp</dimen>
+    <dimen name="text_16">16sp</dimen>
+    <dimen name="text_18">18sp</dimen>
+    <dimen name="text_20">20sp</dimen>
+    <dimen name="text_22">22sp</dimen>
+    <dimen name="text_24">24sp</dimen>
+    <dimen name="text_26">26sp</dimen>
+    <dimen name="text_28">28sp</dimen>
+    <dimen name="text_32">32sp</dimen>
+
+    <!-- space -->
+    <dimen name="space_1">1dp</dimen>
+    <dimen name="space_2">2dp</dimen>
+    <dimen name="space_4">4dp</dimen>
+    <dimen name="space_6">6dp</dimen>
+    <dimen name="space_8">8dp</dimen>
+    <dimen name="space_10">10dp</dimen>
+    <dimen name="space_12">12dp</dimen>
+    <dimen name="space_14">14dp</dimen>
+    <dimen name="space_16">16dp</dimen>
+    <dimen name="space_20">20dp</dimen>
+    <dimen name="space_24">24dp</dimen>
+    <dimen name="space_26">26dp</dimen>
+    <dimen name="space_28">28dp</dimen>
+    <dimen name="space_32">32dp</dimen>
+    <dimen name="space_34">34dp</dimen>
+    <dimen name="space_36">32dp</dimen>
+    <dimen name="space_40">40dp</dimen>
+    <dimen name="space_42">42dp</dimen>
+    <dimen name="space_44">44dp</dimen>
+    <dimen name="space_48">48dp</dimen>
+    <dimen name="space_50">50dp</dimen>
+    <dimen name="space_56">56dp</dimen>
+    <dimen name="space_52">52dp</dimen>
+    <dimen name="space_64">64dp</dimen>
+    <dimen name="space_86">86dp</dimen>
+    <dimen name="space_280">280dp</dimen>
+
+    <!-- radius -->
+    <dimen name="radius_2">@dimen/space_2</dimen>
+    <dimen name="radius_4">@dimen/space_4</dimen>
+    <dimen name="radius_6">@dimen/space_6</dimen>
+    <dimen name="radius_8">@dimen/space_8</dimen>
+    <dimen name="radius_10">@dimen/space_10</dimen>
+    <dimen name="radius_12">@dimen/space_12</dimen>
+    <dimen name="radius_16">@dimen/space_16</dimen>
+    <dimen name="radius_20">@dimen/space_20</dimen>
+    <dimen name="radius_24">@dimen/space_24</dimen>
+    <dimen name="radius_32">@dimen/space_32</dimen>
+
+    <!-- elevation -->
+    <dimen name="elevation_2">@dimen/space_2</dimen>
+    <dimen name="elevation_4">@dimen/space_4</dimen>
+    <dimen name="elevation_8">@dimen/space_8</dimen>
+    <dimen name="elevation_12">@dimen/space_12</dimen>
+    <dimen name="elevation_16">@dimen/space_16</dimen>
+    <dimen name="elevation_24">@dimen/space_24</dimen>
+    <dimen name="elevation_32">@dimen/space_32</dimen>
+
+    <dimen name="question_scroll_padding">88dp</dimen>
+
+    <dimen name="icon_size">24dp</dimen>
+    <dimen name="toolbar_icon_size">48dp</dimen>
+    <dimen name="activity_item_icon_size">14dp</dimen>
+    <dimen name="level_icon_container_size">86dp</dimen>
+    <dimen name="level_icon_size">42dp</dimen>
+    <dimen name="timer_icon_size">12dp</dimen>
+    <dimen name="quiz_icon_size">38dp</dimen>
+    <dimen name="quiz_count_circle_size">34dp</dimen>
+    <dimen name="error_icon_height">94dp</dimen>
+    <dimen name="error_icon_width">76dp</dimen>
+
+    <dimen name="quiz_progress_size">3dp</dimen>
+    <dimen name="sub_toolbar_height">48dp</dimen>
+    <dimen name="question_option_height">56dp</dimen>
+    <dimen name="divider_size">1dp</dimen>
+    <dimen name="code_line_height">@dimen/space_24</dimen>
+    <dimen name="btn_height">48dp</dimen>
+    <dimen name="index_progress_height">56dp</dimen>
+
+    <integer name="quiz_span_count">2</integer>
+</resources>
